@@ -25,7 +25,7 @@ Working :
 -----------------------------------------------------
 First run server.py in cmd of PC1 and it will show device IP in first line, then, run client.py in cmd of PC2 and it will ask for IP, just fill IP which is shown in cmd of server.py, then your Nickname, and you are now Connected to start Chatting.
 
-It can be run on same Laptop too.... no problem !!!
+Both, server.py and client.py files can be run on same Laptop too.... no problem !!!
 --------------------------------------------------
 
 Citation : 
