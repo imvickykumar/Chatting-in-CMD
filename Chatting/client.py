@@ -2,7 +2,7 @@ import socket
 
 def client_program():
 
-    host = input('\nEnter host IP : ')
+    host = input('\nEnter Host IP : ')
     port = 5000
 
     nick = input('\nEnter your Nickname : ')
