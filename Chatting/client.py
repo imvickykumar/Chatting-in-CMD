@@ -1,24 +1,27 @@
 import socket
 
 def client_program():
-    # host = socket.gethostname()
-    # host = '192.168.43.100'
-    
-    host = '192.168.43.213'
+
+    host = input('\nEnter host IP : ')
     port = 5000
 
+    nick = input('\nEnter your Nickname : ')
     client_socket = socket.socket()
     client_socket.connect((host, port))
-    message = input("\n                             -> ")
+
+    print('\nConnected...\n')
+    message = "hi, it's " + nick
 
     while message.lower().strip() != 'bye':
-        client_socket.send(message.encode())
+
+        client_socket.send(('-> ' + message).encode())
         data = client_socket.recv(1024).decode()
 
-        print(' -> ' + data)
+        print(str(data))
         message = input("                             -> ")
 
     client_socket.close()
     
 if __name__ == '__main__':
     client_program()
+    input('\nchatting is ended...')
