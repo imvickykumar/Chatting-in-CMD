@@ -13,6 +13,10 @@ FaceBook Post :
        https://lnkd.in/g4WQ2Et
 ------------------------------------------------------
 
+Instagram Post :
+       https://lnkd.in/ei_UW24
+------------------------------------------------------
+
 Blog : 
 ----------------------------------
 Hello everyone, this is for Chatting either on same laptop or 2 different laptops... and Yes, I used  socket library of Python.
