@@ -1,4 +1,4 @@
-# LAN-Chatting
+# Chatting Socket
 
 
 Project : 
