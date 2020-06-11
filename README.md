@@ -24,6 +24,9 @@ Hello everyone, this is for Chatting either on same laptop or 2 different laptop
 
 Now, I have Edited this code to very easy to use and easy interface... !!!
 
+...New feature is added : Send and Receive Files by running first "python receiver.py" then "python sender.py"
+===================================================================================================================
+
 
 Working : 
 -----------------------------------------------------
